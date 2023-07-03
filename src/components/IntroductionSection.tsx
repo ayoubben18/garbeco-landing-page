@@ -1,6 +1,7 @@
 import { Box, Button, Text, Image, HStack } from "@chakra-ui/react";
 import { FaDownload } from "react-icons/fa";
 import phone from "../assets/phone.png";
+import GarbEcocard from "./garbEcocard";
 const IntroductionSection = () => {
   return (
     <Box id="introduction" textAlign="left" marginLeft={20}>
@@ -9,20 +10,21 @@ const IntroductionSection = () => {
           <Text fontSize="6xl" fontWeight="bold" mb={4}>
             Welcome to Garbeco!
           </Text>
-          <Text fontSize="lg" mb={6}>
+          <Text marginTop={10} fontSize="lg" mb={6}>
             Gaebeco is lah o3lm
           </Text>
-          <Button colorScheme="teal" size="lg" leftIcon={<FaDownload />}>
+          <Button
+            colorScheme="teal"
+            size="lg"
+            leftIcon={<FaDownload />}
+            marginTop={10}
+          >
             Download Now
           </Button>
         </Box>
-        <Image
-          src={phone}
-          alt="Garbeco App"
-          mt={8}
-          boxSize={500}
-          marginRight={20}
-        />
+        <Box marginRight={40} paddingTop={20}>
+          <GarbEcocard />
+        </Box>
       </HStack>
     </Box>
   );
