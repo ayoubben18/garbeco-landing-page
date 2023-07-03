@@ -3,7 +3,7 @@ import { MdCall } from "react-icons/md";
 const ContactUsSection = () => {
   return (
     <Box id="contact" mt={12} marginLeft={50} marginBottom={50}>
-      <Text fontSize="2xl" fontWeight="bold" mb={4}>
+      <Text fontSize="4xl" fontWeight="bold" mb={4}>
         Contact Us
       </Text>
       <Box maxWidth="400px">

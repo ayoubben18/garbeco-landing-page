@@ -1,10 +1,11 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import Navbar from "./components/navbar";
 import IntroductionSection from "./components/IntroductionSection";
-import EducationalSection from "./components/EducationalSection";
+import EducationalSection from "./components/AboutUsSection";
 import ECommerceSection from "./components/ECommerceSection";
 import ContactUsSection from "./components/ContactUsSection";
 import UserSpaceSection from "./components/UserSpaceSection";
+import About from "./components/AboutUsSection";
 
 function App() {
   return (
@@ -19,9 +20,7 @@ function App() {
       </GridItem>
       <GridItem area="main">
         <IntroductionSection />
-        <UserSpaceSection />
-        <EducationalSection />
-        <ECommerceSection />
+        <About />
         <ContactUsSection />
       </GridItem>
     </Grid>

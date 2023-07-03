@@ -31,35 +31,28 @@ const Navbar: React.FC = () => {
       <Stack justify="space-between" direction="row" spacing={10}>
         <Image src={logo} boxSize="100px" marginLeft={5} />
         {/* Introduction button */}
-        <HStack paddingRight={20} marginLeft={230}>
+        <HStack paddingRight={60} marginLeft={300}>
           <Button
             colorScheme="teal"
             variant="ghost"
             onClick={() => scrollToSection("introduction")}
           >
-            Introduction
+            Welcome
           </Button>
           {/* Feature buttons */}
           <Button
             colorScheme="teal"
             variant="ghost"
-            onClick={() => scrollToSection("educational")}
+            onClick={() => scrollToSection("about-us")}
           >
-            Educational
+            About Us
           </Button>
           <Button
             colorScheme="teal"
             variant="ghost"
-            onClick={() => scrollToSection("user-space")}
+            onClick={() => scrollToSection("features")}
           >
-            User Space
-          </Button>
-          <Button
-            colorScheme="teal"
-            variant="ghost"
-            onClick={() => scrollToSection("e-commerce")}
-          >
-            E-commerce
+            Features
           </Button>
           {/* Contact us button */}
           <Button
