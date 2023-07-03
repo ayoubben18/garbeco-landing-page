@@ -18,9 +18,11 @@ const Navbar: React.FC = () => {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    const offset = 90; // Adjust this value to set the desired offset
-    const topOffset = element?.offsetTop - offset;
-    window.scrollTo({ top: topOffset, behavior: "smooth" });
+    if (element) {
+      const offset = 90; // Adjust this value to set the desired offset
+      const topOffset = element.offsetTop - offset;
+      window.scrollTo({ top: topOffset, behavior: "smooth" });
+    }
   };
 
   return (
