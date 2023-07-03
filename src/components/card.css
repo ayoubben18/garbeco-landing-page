@@ -1,4 +1,4 @@
-.card {
+.card1 {
     position: relative;
     width: 264px;
     height: 384px;
@@ -13,8 +13,8 @@
     color:#FFFFFF;
   }
   
-  .card::before,
-  .card::after {
+  .card1::before,
+  .card1::after {
     position: absolute;
     content: "";
     width: 20%;
@@ -28,26 +28,150 @@
     transition: all 0.5s;
   }
   
-  .card::before {
+  .card1::before {
     top: 0;
     right: 0;
     border-radius: 0 15px 0 100%;
   }
   
-  .card::after {
+  .card1::after {
     bottom: 0;
     left: 0;
     border-radius: 0 100%  0 15px;
   }
   
-  .card:hover::before,
-  .card:hover:after {
+  .card1:hover::before,
+  .card1:hover:after {
     width: 100%;
     height: 100%;
     border-radius: 15px;
     transition: all 0.5s;
   }
   
-  .card:hover:after {
-    content: "HELLO";
+  .card1:hover:after {
+    content: "Gather points";
+  }
+  
+
+
+
+
+
+  
+
+  .card2 {
+    position: relative;
+    width: 264px;
+    height: 384px;
+    background: #8e9726;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    color:#FFFFFF;
+  }
+  
+  .card2::before,
+  .card2::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #583b1b;
+    transition: all 0.5s;
+  }
+  
+  .card2::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card2::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card2:hover::before,
+  .card2:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .card2:hover:after {
+    content: "Know more";
+  }
+
+
+
+
+
+
+
+
+
+
+  .card3 {
+    position: relative;
+    width: 264px;
+    height: 384px;
+    background: #8a2697;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    color:#FFFFFF;
+  }
+  
+  .card3::before,
+  .card3::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #271b58;
+    transition: all 0.5s;
+  }
+  
+  .card3::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card3::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card3:hover::before,
+  .card3:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .card3:hover:after {
+    content: "Buy now";
   }

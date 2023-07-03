@@ -1,5 +1,6 @@
 import { Box, Button, Text, HStack, Input, Textarea } from "@chakra-ui/react";
 import { MdCall } from "react-icons/md";
+
 const ContactUsSection = () => {
   return (
     <Box
@@ -9,12 +10,12 @@ const ContactUsSection = () => {
       marginBottom={50}
       paddingBottom={10}
     >
-      <Text fontSize="4xl" fontWeight="bold" mb={4}>
+      <Text fontSize="5xl" fontWeight="bold" mb={4}>
         Contact Us
       </Text>
       <Box maxWidth="400px">
-        <Input placeholder="Name" mb={4} />
-        <Input placeholder="Email" mb={4} />
+        <Input placeholder="Name" size="lg" mb={4} />
+        <Input placeholder="Email" size="lg" mb={4} />
         <Textarea placeholder="Message" size="lg" resize="vertical" mb={4} />
         <HStack spacing={6}>
           <Button colorScheme="teal" variant="outline" size="md">

@@ -18,7 +18,9 @@ const Navbar: React.FC = () => {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: "smooth" });
+    const offset = 90; // Adjust this value to set the desired offset
+    const topOffset = element?.offsetTop - offset;
+    window.scrollTo({ top: topOffset, behavior: "smooth" });
   };
 
   return (
@@ -27,7 +29,7 @@ const Navbar: React.FC = () => {
       align="center"
       justify="space-between"
       bg={colorMode === "dark" ? "gray.800" : "white"}
-      boxShadow="md"
+      boxShadow="lg"
     >
       <Stack justify="space-between" direction="row" spacing={10}>
         <Image src={logo} boxSize="100px" marginLeft={5} />

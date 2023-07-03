@@ -1,6 +1,7 @@
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import CarouselComponent from "./CarouselComponent";
+import SendMessage from "./sendMessage";
 
 const About: React.FC = () => {
   return (
@@ -12,16 +13,12 @@ const About: React.FC = () => {
       paddingTop={5}
       paddingBottom={30}
     >
-      <Text
-        color="white"
-        fontSize="4xl"
-        fontWeight="bold"
-        mb={4}
-        paddingLeft={7}
-        paddingBottom={10}
-      >
+      <Text color="white" fontSize="6xl" fontWeight="bold" paddingLeft={6}>
         About Us
       </Text>
+      <Box paddingLeft={2} paddingBottom={4}>
+        <SendMessage />
+      </Box>
       <Text color="white" marginRight={400} paddingLeft={5} paddingBottom={10}>
         We are a dedicated team of engineering students studying at ENSA Fes in
         Morocco, driven by a passion for innovation and problem-solving.
