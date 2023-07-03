@@ -5,6 +5,7 @@ import ContactUsSection from "./components/ContactUsSection";
 import About from "./components/AboutUsSection";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         lg: `"nav nav" "main"`,
       }}
     >
-      <GridItem area="nav">
+      <GridItem area="nav" className="sticky-nav">
         <Navbar />
       </GridItem>
       <GridItem area="main">
