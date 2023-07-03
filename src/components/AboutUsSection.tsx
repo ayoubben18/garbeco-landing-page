@@ -1,4 +1,4 @@
-import { Box, Text, Slide, SlideFade } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import CarouselComponent from "./CarouselComponent";
 
@@ -13,6 +13,7 @@ const About: React.FC = () => {
       paddingBottom={30}
     >
       <Text
+        color="white"
         fontSize="4xl"
         fontWeight="bold"
         mb={4}
@@ -21,7 +22,7 @@ const About: React.FC = () => {
       >
         About Us
       </Text>
-      <Text marginRight={400} paddingLeft={5} paddingBottom={10}>
+      <Text color="white" marginRight={400} paddingLeft={5} paddingBottom={10}>
         We are a dedicated team of engineering students studying at ENSA Fes in
         Morocco, driven by a passion for innovation and problem-solving.
         Together, we have embarked on an exciting journey to create a

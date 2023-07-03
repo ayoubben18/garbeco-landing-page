@@ -1,6 +1,5 @@
-import { Box, Button, Text, Image, HStack } from "@chakra-ui/react";
+import { Box, Button, Text, HStack } from "@chakra-ui/react";
 import { FaDownload } from "react-icons/fa";
-import phone from "../assets/phone.png";
 import GarbEcocard from "./garbEcocard";
 import PlayStore from "./playStore";
 const IntroductionSection = () => {

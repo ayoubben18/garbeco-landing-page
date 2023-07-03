@@ -2,7 +2,13 @@ import { Box, Button, Text, HStack, Input, Textarea } from "@chakra-ui/react";
 import { MdCall } from "react-icons/md";
 const ContactUsSection = () => {
   return (
-    <Box id="contact" mt={12} marginLeft={50} marginBottom={50}>
+    <Box
+      id="contact"
+      mt={12}
+      marginLeft={90}
+      marginBottom={50}
+      paddingBottom={10}
+    >
       <Text fontSize="4xl" fontWeight="bold" mb={4}>
         Contact Us
       </Text>

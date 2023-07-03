@@ -3,12 +3,11 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import img1 from "../assets/1.jpeg";
 import img2 from "../assets/2.jpeg";
-
 import img3 from "../assets/3.jpeg";
-
 import img4 from "../assets/4.jpeg";
 import { Image } from "@chakra-ui/react";
 import "./CarouselComponent.css";
+
 const options = {
   type: "loop",
   perPage: 3,

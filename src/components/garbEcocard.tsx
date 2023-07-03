@@ -1,10 +1,9 @@
 import "../components/garbEcocard.css";
 import logo from "../assets/logo.png";
 import { Image, Progress, Stack, Text, Box } from "@chakra-ui/react";
-import home from "../assets/home.jpg";
 const GarbEcocard = () => {
   return (
-    <div className="card">
+    <div className="garbcard">
       <div className="first-content">
         <Image src={logo} />
       </div>

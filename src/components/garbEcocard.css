@@ -1,4 +1,4 @@
-.card {
+.garbcard {
     width: 247px;
     height: 330.2px;
     background: rgb(0, 128, 128);
@@ -9,7 +9,7 @@
     font-weight: 900;
   }
   
-  .card:hover {
+  .garbcard:hover {
     border-radius: 15px;
     cursor: pointer;
     transform: scale(1.2);
@@ -28,7 +28,7 @@
     border-radius: 15px;
   }
   
-  .card:hover .first-content {
+  .garbcard:hover .first-content {
     height: 0px;
     opacity: 0;
   }
@@ -46,7 +46,7 @@
     transform: rotate(90deg) scale(-1);
   }
   
-  .card:hover .second-content {
+  .garbcard:hover .second-content {
     opacity: 1;
     height: 100%;
     font-size: 1.8rem;

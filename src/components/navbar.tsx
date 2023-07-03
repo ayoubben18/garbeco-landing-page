@@ -12,6 +12,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import ShadowButton from "./shadowbutton";
 import Signup from "./signup";
 import logo from "../assets/logo.png";
+
 const Navbar: React.FC = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
