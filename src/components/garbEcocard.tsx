@@ -1,6 +1,6 @@
 import "../components/garbEcocard.css";
 import logo from "../assets/logo.png";
-import { Image, Progress, Stack, Text, Box } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 import SocialMedia from "./socialMedia";
 const GarbEcocard = () => {
   return (
